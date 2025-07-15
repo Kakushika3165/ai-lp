@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIプログラミング学習コミュニティ</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            color: #333;
+        }
+        .container {
+            width: 90%;
+            max-width: 960px;
+            margin: auto;
+            padding: 20px 0;
+        }
+        header {
+            background: #fff;
+            padding: 1rem 0;
+            border-bottom: 1px solid #e0e0e0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            color: #2c3e50;
+        }
+        .hero {
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+        .hero h2 {
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+        .cta-button {
+            display: inline-block;
+            background: #ffc107;
+            color: #333;
+            padding: 15px 35px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 50px;
+            transition: transform 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        .cta-button:hover {
+            transform: scale(1.05);
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 60px 0;
+            background: #fff;
+        }
+        .feature-item {
+            width: 30%;
+            min-width: 280px;
+            text-align: center;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .feature-item img {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 20px;
+        }
+        .feature-item h3 {
+            color: #2c3e50;
+        }
+        section {
+            padding: 60px 0;
+        }
+        h2.section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+            color: #2c3e50;
+        }
+        .testimonial {
+            background: #fff;
+            border-left: 5px solid #4CAF50;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        .faq-item {
+            background: #fff;
+            margin-bottom: 10px;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .faq-item h3 {
+            margin: 0 0 10px 0;
+        }
+        .call-to-action {
+            text-align: center;
+            padding: 80px 20px;
+        }
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>AI Programmer's Guild</h1>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>未来を創るAI開発者になろう</h2>
+            <p>初心者からプロまで、共に学び、共に創る。日本最大級のAIプログラミング学習コミュニティ。</p>
+            <a href="https://discord.gg/dQDVSy3r" class="cta-button">今すぐDiscordに参加する</a>
+        </section>
+
+        <section id="features" class="features">
+            <div class="feature-item">
+                <img src="https://placehold.jp/150x150.png?text=🤝" alt="Community Icon">
+                <h3>仲間と学ぶ</h3>
+                <p>モチベーションを維持し、疑問をすぐに解決できる仲間がいます。</p>
+            </div>
+            <div class="feature-item">
+                <img src="https://placehold.jp/150x150.png?text=🤖" alt="AI Project Icon">
+                <h3>実践的なプロジェクト</h3>
+                <p>実社会で役立つAIアプリケーションを開発する経験を積めます。</p>
+            </div>
+            <div class="feature-item">
+                <img src="https://placehold.jp/150x150.png?text=👨‍🏫" alt="Mentor Icon">
+                <h3>プロのサポート</h3>
+                <p>現役AIエンジニアのメンターがあなたの学習をサポートします。</p>
+            </div>
+        </section>
+
+        <section id="about" class="container">
+            <h2 class="section-title">学べること</h2>
+            <p>Pythonの基礎から、機械学習、ディープラーニング、最新のLLM活用法まで、AI開発の全てを網羅。ハンズオン形式の教材で、手を動かしながら確実にスキルを習得できます。</p>
+        </section>
+
+        <section id="testimonials" style="background: #f4f7f6;">
+            <div class="container">
+                <h2 class="section-title">参加者の声</h2>
+                <div class="testimonial">
+                    <p>"独学では挫折していましたが、このコミュニティのおかげで学習を継続でき、転職に成功しました！"</p>
+                    <cite>- 30代・元営業職</cite>
+                </div>
+                <div class="testimonial">
+                    <p>"レベルの高い仲間と議論することで、自分のアイデアが洗練されていくのを感じます。最高の環境です。"</p>
+                    <cite>- 20代・学生</cite>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="container">
+            <h2 class="section-title">よくある質問</h2>
+            <div class="faq-item">
+                <h3>プログラミング初心者でも大丈夫ですか？</h3>
+                <p>はい、大丈夫です。初心者向けの学習ロードマップや質問チャンネルが充実しており、多くの方が未経験からスタートしています。</p>
+            </div>
+            <div class="faq-item">
+                <h3>料金はかかりますか？</h3>
+                <p>基本的なコンテンツの閲覧や、他の学習者との交流はすべて無料です。一部、有料のメンタリングサービスもあります。</p>
+            </div>
+        </section>
+
+        <section class="call-to-action">
+            <h2 class="section-title">さあ、あなたもAI開発の世界へ</h2>
+            <a href="https://discord.gg/dQDVSy3r" class="cta-button">無料でコミュニティに参加する</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 AI Programmer's Guild. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
